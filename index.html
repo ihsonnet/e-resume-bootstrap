@@ -20,11 +20,40 @@
     </style>
 </head>
 <body class="bg-light">
+    <header class="container-float" style="position: sticky; top: 0px; z-index:1">
+      <div class="card p-2 bg-dark rounded-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-3">
+                <img width="50px" src="assets/img/profile.jpg" class="mx-3 bg-primary rounded-circle">
+              </div>
+              <div class="col-6">
+                <div class="row justify-content-center">
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-white" style="border-radius:15px;">
+                    <div><span><i class="fas fa-address-card text-secondary"></i></span><b> Resume</b></div>
+                  </button>
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;">
+                    <div><span><i class="fas fa-puzzle-piece text-light"></i></span><b> Portfolio</b></div>
+                  </button>
+                </div>
+              </div>
+              <div class="col-3">
+               <div style="text-align: right;">
+                <button class="btn py-1 px-3 mx-2 my-1 bg-dark border-white text-white" style="border-radius:15px;">
+                  <div class="d-md-block d-sm-none"><span><i class="fas fa-link text-light"></i></span><b> Google Site</b></div>
+                  <div class="d-md-none d-sm-block"><span><i class="fab fa-google text-light"></i></span></div>
+                </button>
+               </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </header>
     <div class="container">
         <div class="row">
           <!-- left side  -->
           <div class="col-md-4">
-            <div class="card mt-3 bg-dark" style="border-radius:15px; position: sticky; top: 16px;">
+            <div class="card mt-3 bg-dark" style="border-radius:15px; position: sticky; top: 85px;">
               <div class="p-3 d-flex justify-content-center">
                 <img width="60%" src="assets/img/profile.jpg" class="bg-primary rounded-circle">
               </div>
@@ -172,16 +201,72 @@
             <div class="card p-3 bg-white mt-3"  style="border-radius:15px;">
               <h4> <span><i class="fas fa-puzzle-piece text-secondary"></i></span> Portfolio</h4>
               <br>
+              <!-- peoject 1 -->
               <div class="card p-3 bg-light"  style="border-radius:15px;">
-                
+                <b>Buggie - A Bug Lifecycle management tools</b>
+                Features: Like a project management system , tester - developer - project manager can use it to manage a project.
+                <p class="my-1">
+                  <span class="badge mx-1 px-2 badge-pill badge-warning">Java</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-warning">Spring Boot</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">Vue.Js</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">Rest API</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">PostgreSQL</span>
+                </p>
+                <div class="row px-2 pt-3">
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fas fa-link text-light"></i></span> Buggie Live</div>
+                  </button>
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fas fa-link text-light"></i></span> Backend Documentation</div>
+                  </button>
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fab fa-github text-light"></i></span> Frontend Repo</div>
+                  </button>
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fab fa-github text-light"></i></span> Backend Repo</div>
+                  </button>
+                </div>
               </div>
               <br>
               <div class="card p-3 bg-light"  style="border-radius:15px;">
+                <b>Dokanee - An E-Commerce CMS , where people can create ecommerce websites without coding. (Ongoing)</b>
+                Features: Create Store, Product, Category Add/Edit, POS, Manage Order-Customer, add employee. <br>
+                Demo e-commerce made by Dokanee : <a style="display:inline-flex" href="http://">Market Bangla</a>
+                This e-commerce site is made by dokanee simple template. working on more new attractive templates.
                 
+                <p class="my-1">
+                  <span class="badge mx-1 px-2 badge-pill badge-success">Vue.Js</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">Vuetify</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">Rest API</span>
+                </p>
+                <div class="row px-2 pt-2">
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fas fa-link text-light"></i></span> Dokanee Live</div>
+                  </button>
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fab fa-github text-light"></i></span> Github Repositories</div>
+                  </button>
+                </div>
               </div>
               <br>
               <div class="card p-3 bg-light"  style="border-radius:15px;">
-                
+                <b>Covid19 Visualization Bangladesh</b>
+                Features: people can visualize the current corona situation of a particular area in bangladesh map.
+                <p class="my-1">
+                  <span class="badge mx-1 px-2 badge-pill badge-warning">Java</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-warning">Spring Boot</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">HTML</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">CSS</span>
+                  <span class="badge mx-1 px-2 badge-pill badge-success">Rest API</span>
+                </p>
+                <div class="row px-2 pt-2">
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fas fa-link text-light"></i></span> Dokanee Live</div>
+                  </button>
+                  <button class="btn py-1 px-3 mx-2 my-1 bg-secondary text-white" style="border-radius:15px;" onclick="window.open('#', '_blank')">
+                    <div><span><i class="fab fa-github text-light"></i></span> Github Repositories</div>
+                  </button>
+                </div>
               </div>
             </div>
 
