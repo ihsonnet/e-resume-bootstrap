@@ -1,5 +1,5 @@
-Auther: Injamamul haque Sonet
-Email: ihsonnet@gmail.com
+Name: Injamamul haque Sonet
+ID: 192-35-473
 
 Online Resume Build with HTML & Bootstrap.
 Responsible for all device screen.
